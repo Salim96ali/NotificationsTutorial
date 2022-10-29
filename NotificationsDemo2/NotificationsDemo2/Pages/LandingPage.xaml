@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:NotificationsDemo2.ViewModel"
+             x:Class="NotificationsDemo2.Pages.LandingPage">
+    <ContentPage.BindingContext>
+        <vm:LandingViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <CollectionView ItemsSource="{Binding Subscribers}"
+                            SelectionMode='Single'
+                            SelectionChangedCommand="{Binding HiCommand}"
+                            SelectedItem="{Binding SelectedSubscriber}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="{Binding Name}"/>
+                            <Label Text="{Binding Address}"/>
+                            <Label Text="{Binding Token}" LineBreakMode="NoWrap"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

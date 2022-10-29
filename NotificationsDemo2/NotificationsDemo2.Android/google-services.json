@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "538514211166",
+    "firebase_url": "https://realtimedb-39f9d-default-rtdb.firebaseio.com",
+    "project_id": "realtimedb-39f9d",
+    "storage_bucket": "realtimedb-39f9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538514211166:android:4fa5499af237a094aa0fcf",
+        "android_client_info": {
+          "package_name": "com.companyname.notificationsdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538514211166-9c6hobdamhd0pskshp0l7me1nnli27qq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy7wbJ0WgUW363JKs5SpGZy4zFYfyvR80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538514211166-9c6hobdamhd0pskshp0l7me1nnli27qq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538514211166:android:fcec26c60c3f7637aa0fcf",
+        "android_client_info": {
+          "package_name": "sl.jab.notificationsdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538514211166-9c6hobdamhd0pskshp0l7me1nnli27qq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy7wbJ0WgUW363JKs5SpGZy4zFYfyvR80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538514211166-9c6hobdamhd0pskshp0l7me1nnli27qq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
